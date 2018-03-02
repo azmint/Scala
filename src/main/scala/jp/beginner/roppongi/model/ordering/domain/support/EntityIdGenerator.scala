@@ -1,1 +1,1 @@
-package jp.beginner.roppongi.model.ordering.domain.supporttrait EntityIdGenerator[T <: EntityId] {  def next: T}
+package jp.beginner.roppongi.model.ordering.domain.supporttrait EntityIdGenerator[E <: Entity] {  def next: E#ID}

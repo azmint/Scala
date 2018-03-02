@@ -1,0 +1,1 @@
+package jp.beginner.roppongi.model.ordering.domain.supporttrait Repository[E <: Entity] {  def find(id: E#ID): E  def store(entity: Entity)}
